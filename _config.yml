@@ -1,0 +1,20 @@
+# Site settings
+author: Rachel Levinson
+title: Lasagna Mondays
+header-img: img/home-bg.png
+email: rachel.a.levinson@gmail.com
+copyright_name: Rachel Levinson
+description: > # this means to ignore newlines until "baseurl:"
+  Building the layers of becoming a Software Engineer
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  minirachel
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
